@@ -1,0 +1,30 @@
+{
+  "name": "discordtestapp",
+  "version": "1.0.0",
+  "description": "Some tests with the discord API",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belabb-z/DiscordTestApp.git"
+  },
+  "author": "Ziri Belabbas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belabb-z/DiscordTestApp/issues"
+  },
+  "homepage": "https://github.com/belabb-z/DiscordTestApp#readme"
+}
