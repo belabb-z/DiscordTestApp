@@ -1,6 +1,6 @@
 {
   "name": "discordtestapp",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Some tests with the discord API",
   "main": "index.js",
   "directories": {
