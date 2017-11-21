@@ -9,7 +9,8 @@
     "test": "test"
   },
   "dependencies": {
-    "chai": "^4.1.2"
+    "chai": "^4.1.2",
+    "discord.js": "^11.2.1"
   },
   "devDependencies": {
     "mocha": "^4.0.1"
