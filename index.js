@@ -23,7 +23,7 @@ client.on('message', message => {
 client.on('channelCreate', chan => {
   if (chan.type === 'text') {
     chan.send('First !').catch((err) => {
-      console.log('et merde...: ' + err);
+      console.log(err);
     });
   }
 });
@@ -42,7 +42,7 @@ client.login(token).then((res) => {
   let general = client.channels.find('name', 'general');
 
   client.user.setUsername('Jarvis');
-  general.send("De retour !").catch((err) => { console.log("euh: " + err); });
+  general.send("De retour !").catch(console.log);
   client.user.setGame('Kamoulox!')
     .catch((err) => {
       console.log('setGame error: ' + err);
